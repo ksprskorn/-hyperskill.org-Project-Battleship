@@ -1,14 +1,14 @@
 class ArrayOperations {
     public static void printCorners(int[][] twoDimArray) {
         if (twoDimArray[0].length == 1 && twoDimArray.length == 1) {
-//            System.out.print(twoDimArray[0][0]);
+            System.out.print(twoDimArray[0][0]);
 
         } else if (twoDimArray[0].length == 1) {
-//            System.out.println(twoDimArray[0][0]);
-//            System.out.print(twoDimArray[twoDimArray.length - 1][0]);
+            System.out.println(twoDimArray[0][0]);
+            System.out.print(twoDimArray[twoDimArray.length - 1][0]);
 
         } else if (twoDimArray.length == 1) {
-//            System.out.print(twoDimArray[0][0] + " " + twoDimArray[0][twoDimArray[0].length - 1]);
+            System.out.print(twoDimArray[0][0] + " " + twoDimArray[0][twoDimArray[0].length - 1]);
 
         } else {
             for (int i = 0; i < twoDimArray.length; i++) {
@@ -30,7 +30,7 @@ class ArrayOperations {
             }
         }
     }
-
+//  Tests
 //    public static void main(String[] args) {
 //        System.out.println("\n-------1--------");
 //
