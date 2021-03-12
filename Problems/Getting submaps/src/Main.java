@@ -14,11 +14,11 @@ class Main {
         while (i < lineCount) {
             Integer number = scanner.nextInt();
             String str = scanner.next();
-            sm.put(number,str);
+            sm.put(number, str);
             i++;
         }
 
-        sm.subMap(fromRange,toRange).forEach((key,value) -> System.out.println(key + " " + value));
+        sm.subMap(fromRange, toRange).forEach((key, value) -> System.out.println(key + " " + value));
 
     }
 }
