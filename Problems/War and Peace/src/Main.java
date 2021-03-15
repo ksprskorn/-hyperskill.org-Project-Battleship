@@ -7,8 +7,8 @@ class Main {
         Map<String, Integer> wordCounter = new HashMap<>();
 
         for (String word : inputText) {
-            int count = wordCounter.getOrDefault(word,0);
-            wordCounter.put(word,++count);
+            int count = wordCounter.getOrDefault(word, 0);
+            wordCounter.put(word, ++count);
         }
         return wordCounter;
     }
